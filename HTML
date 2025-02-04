@@ -1,0 +1,225 @@
+<!--<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+
+<html>
+    <head>
+        <title>STmane_AdvocacyProject</title>
+        <link href="reset.css" rel="stylesheet" type="text/css" />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        Add HTML markup elements for your web site below -->
+  
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>QuickConsult-Online Consultations</title> <!-- the content here will only show in the tab and in the metadata about the page -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <!-- FAVICON I DO NOT KNOW WHY IT IS NOT WORKING!!!!!!!!!!!!!!!! -->
+    <link rel="icon"  type="image/png" href="Logomakerproject(1).png">
+    
+   
+</head>
+
+<body>
+
+
+<div class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#news">News</a></li>
+      <li><button id="theme-button">Dark Mode</button></li>
+
+      
+      
+      <!-- Stretch Challenge: Drop Down -->
+    </ul>
+  </div>
+  
+  
+  
+  <!-- Part 2: Flexbox Layout Stater Code -->
+  
+  <div class="container">
+    <div class="item"></div>
+    <div class="header-item"></div>
+    
+  </div>
+
+  
+
+    <!--- Headings --->
+
+<div class="header-container" id="home">
+   
+    <div class="header-item"> 
+        
+        <h1 className = "H1Heading"> Talk to a Doctor Anytime, Anywhere - For Free!</h1>
+        
+        <h3 className = H3Heading>Get expert medical advice online from certified doctors, without any cost!</h3>
+        <img src="\VSCode Edu\Images\pinkImageForHeader.jpg" width="200" height="130"/>
+     </div>   
+    <div class="header-item">
+    
+        <button type="button" className="button1"> Book An Appointment!</button>
+        <button type="button" className="button2">Learn more!</button>
+        
+    </div>
+
+    
+    
+</div>
+
+
+    <!--- About --->
+    <script> window.chtlConfig = { chatbotId: "8915863195" } </script>
+<script async data-id="8915863195" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+<div class="revealable">
+    <div class="about-container" id="about">
+    <h2 className=" H2About">About My Topic</h2>
+    <p className="ParagraphAbout"> Connect with out board-certified doctors anyitme, At "QuickConsult", we make sure that patients are able to consult a docrot for free, within minutes from the comfort of your home.
+    </p>
+    <iframe width="400" height="200" src="https://www.youtube.com/embed/ntnEysIosgA?si=zjaS8WFTRjjQepjA" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+    <!--- Data --->
+<div class="revealable">
+    <div class="data-container">
+    
+        <div class="data-item">
+        <h3 className=" H3Data"> Why Online Consultations Matter</h3>
+        <img src="" />
+   </div>
+
+
+   <div class="data-item">
+    <ul className="ULData" >
+        <li> Cost Effective.</li>
+        <li> Accessibility</li>
+        <li> Saves time</li>
+        <li> No risk of infection</li>
+        <li> Convenience</li>
+    </ul>
+   </div>
+</div>
+</div>
+    <!--- Impact --->
+<div class="revealable">   
+    <div class=" impact-container" id="impact">
+    <p>
+    <h2 className=" H2Impact"> Our Impact! </h2>
+
+    <img src="\VSCode Edu\Images\Doc taliing in pc.jpg" alt = " doctor in PC without face" width="170" height="100" />
+
+    <h3 className=" H3Impact" >Problem ➡️ Solution 🥼 💊 🩺</h3>
+    <p>The lack of immediate access to doctors can lead to untreated medical conditions, resulting in more serious health complications over time. 
+    </p>
+    <p>By providing an online platform for consultations, we ensure that individuals can receive timely medical advice and care, potentially preventing these long-term effects.</p>
+
+</p>
+</div>
+</div>
+<!--petition-->
+<div class="revealable">
+<div class="petition" id="petition">
+
+    <h2>Join the Movement for Accessible Healthcare! 📢</h2>
+
+    <div class="petition-container">
+ 
+
+      <div class="petition-para">
+        <!-- info goes here -->
+         <p>
+            Millions of individuals struggle to receive timely and affordable healthcare. QuickConsult is dedicated to bridging this gap, but we need your help to make a broader impact! By signing this petition, you are joining a growing community of advocates pushing for expanded telemedicine resources, better funding for online consultations, and more accessible healthcare options for all. Together, we can drive policy changes to ensure that everyone has access to essential medical advice and care—no matter where they are."
+         </p>
+      </div>
+
+      <div class="signatures">
+        <p>🖊️ Sarah from Atlanta has signed the petition!</p>
+        <p>🖊️ Amy from New York has signed the petition!</p>
+        <p>🖊️ Teresa from GreenSville has signed the petition!</p>
+      </div>
+
+      
+    </div>
+</div>
+
+  <!--- Sign Petition Form --->
+  <form id="sign-petition" title="sign-petition">
+  <!-- Name field -->
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <!-- Hometown field -->
+  <label for="hometown">Hometown:</label>
+  <input type="text" id="hometown" name="hometown" required>
+
+  <!-- Email field (optional but useful) -->
+  <label for="email">Email (optional):</label>
+  <input type="email" id="email" name="email">
+  </form>
+
+   <!--- Sign Now Button --->
+  <button id="sign-now-button">Sign Now</button>
+  
+  <div class="signatures">
+    <!-- signatures go here -->
+  </div>
+</div>
+    <!--- News ---> <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
+<div class=" impact-container" id="news">
+    <h2> Latest News</h2>
+    <p class="links">
+        Oh, want to read more? 
+        <a href="https://www.medicalnewstoday.com/" target="_blank">Health News</a>.
+    </p>
+
+</div>   
+
+
+<!--footer--> 
+<div class="revealable">
+<footer>
+    <div class="footer-container">
+        <a href="https://www.drugs.com/otc/" target="_blank">Over-the-Counter (OTC) Medications</a> |
+        <a href="https://www.who.int/" target="_blank">World Health Organization</a>
+        <p>© 2024 TalkToDocotor</p>
+       
+    </div>
+</footer>
+</div>
+<script src="index.js"></script>
+<!-- Modal -->
+<div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p> Thank you for signing the petition</p>
+       
+      </div>
+      <img id = "picture" src="Images\modal.webp"  width="90"  height= "90"> 
+    </div>
+      
+  </div>
+  
+
+  
+</body>
+
+</html>---
